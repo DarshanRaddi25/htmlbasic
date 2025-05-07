@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            height: 50px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            margin-bottom: 10px;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            height: 500px;
+            width: 100%;
+            padding: 20px;
+            background-color: white;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .left {
+            background-color: #444;
+            color: #fff6f6;
+            padding: 20px;
+            width: 32%;
+        }
+        .right {
+            background-color: #555;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 32%;
+        }
+        .center{
+            background-color: blue;
+            color: red;
+            padding: 20px;
+            text-align: center;
+            width: 32%;
+        }
+
+        nav {
+            background-color: #666;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            width: 100%;
+            height: 50px;
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            display: block;
+            line-height: 50px;
+
+        }
+
+        footer {
+            width: 100%;
+            height: 100px;
+            background-color: #777;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>This is a header</h1>
+    </header>
+
+    <!-- Section -->
+    <section>
+        <div class="left">
+            <h2>This is the left section</h2>
+        </div>
+        <div class="center">
+            <h1>this is new</h1>
+        </div>
+
+        <div class="right">
+            <h2>This is the Right section</h2> 
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023</p>
+    </footer>
+
+</body>
+</html>
